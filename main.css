@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/ilustration.jpg');
+    background-repeat: no-repeat;
+}
+li {
+    list-style: none;
+  }
+  
+a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+header {
+    width: 100%;
+    height: 65px;
+  }
+header .page-header{
+    padding: 0 20px;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.page-header h1{
+    font-size: 100px;
+    color: #fff;    
+ }
+
+ blockquote{
+  color: #fff;
+ }
+.navbarmenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 98%;
+    margin-top: 35px;
+
+}
+.navbarmenu a {
+    float: right;
+    color: rgb(106, 162, 241);
+    text-align: center;
+    padding: 8px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.navbarmenu a:hover {
+    background-color: #dddddd37;
+    color: rgb(31, 71, 127);
+}
+main .title-exoplanets{
+    font-size: 85px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 52%;
+}
+main .title-galaxies, .title-stars, .title-ssystem{
+    font-size: 85px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+main .container{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Divide el espacio en dos columnas iguales */
+  grid-gap: 50px; /* Espacio entre las columnas */
+  border-radius: 10px;
+  /**border: 1px solid #c1c0c0;*/
+  padding: 10px;
+}
+main .one-container, .two-container{
+  height: 200px;
+  border-radius: 10px;
+}
+main .two-container{
+  width: 100%;
+}
+  main .hr-exo{
+  width: 86%;
+  height: 1px;
+  margin: 0 auto;
+  padding: 10px;
+}
